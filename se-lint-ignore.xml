@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="imprint.xhtml">
+		<ignore>
+			<code>m-075</code>
+			<reason>The first Internet Archive link was for the full text files, used for the transcription. The second IA link was for the scans.</reason>
+		</ignore>
+	</file>
+	<file path="colophon.xhtml">
+		<ignore>
+			<code>m-075</code>
+			<reason>TThe first Internet Archive link was for the full text files, used for the transcription. The second IA link was for the scans.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-2.xhtml">
+		<ignore>
+			<code>t-019</code>
+			<reason>The entire clause contain an initial "Ah!" so period can stay outsite of the italics. --&gt; Ah! <i xml:lang="fr">parfaitement</i>.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-3.xhtml">
+		<ignore>
+			<code>s-023</code>
+			<reason>"Li" here is part of a name, not Roman numerals.</reason>
+		</ignore>
+	</file>
+	<file path="chapter-16.xhtml">
+		<ignore>
+			<code>t-019</code>
+			<reason>The word in italics, carrozza, is part of a longer clause --&gt; ... he added another Italian word, the word “<i xml:lang="it">carrozza</i></reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
