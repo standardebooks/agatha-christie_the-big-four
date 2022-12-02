@@ -28,43 +28,54 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Big Four</dc:title>
 		<meta property="file-as" refines="#title">Big Four, The</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="dcterms:alternate" refines="#title">The Big 4</meta>
+		<dc:subject id="subject-1">Private investigators -- England -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Detective and mystery stories, English</dc:subject>
+		<dc:subject id="subject-3">Belgians -- England -- Fiction</dc:subject>
+		<dc:subject id="subject-4">Poirot, Hercule (Fictitious character) -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh2008109474</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="term" refines="#subject-2">sh85037269</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2009116922</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
+		<meta property="term" refines="#subject-4">sh2008109473</meta>
+		<meta property="se:subject">Mystery</meta>
+		<meta property="se:is-a-collection">true</meta>
+		<meta id="collection-1" property="belongs-to-collection">Poirot</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">5</meta>
+		<dc:description id="description">Poirot must use all his little grey cells to stop an immensely powerful and ruthless organization from taking over the world.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;“The American Soap King” has offered &lt;a href="https://standardebooks.org/collections/poirot"&gt;Hercule Poirot&lt;/a&gt; a ridiculous amount of money to investigate some dodgy business in South America. But right before he’s due to leave London, Poirot discovers that a man has broken into his apartment. The addled stranger, covered in dust and mud, can do little more than repeat Poirot’s address and draw the number 4 over and over. Could the Big Four, a shadowy and seemingly all-powerful organization, be behind these and other strange events?&lt;/p&gt;
+			&lt;p&gt;To stay ahead of supercriminals, Poirot needs the loyalty of his friend Captain Hastings almost as much as he needs his little grey cells. Soon they are rushing to country houses, a mysterious laboratory, the site of a deadly chess game, and a mountaintop hideaway in the Alps.&lt;/p&gt;
+			&lt;p&gt;The year before this book was published, personal turmoil made it impossible for &lt;a href="https://standardebooks.org/ebooks/agatha-christie"&gt;Agatha Christie&lt;/a&gt; to write. But her publisher was anxious for another novel to follow the highly successful &lt;a href="https://standardebooks.org/ebooks/agatha-christie/the-murder-of-roger-ackroyd"&gt;&lt;i&gt;Murder of Roger Ackroyd&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;Her brother-in-law helped her turn a twelve-part serial she had written several years before into &lt;i&gt;The Big Four&lt;/i&gt;—its origin as separate stories helps explain its occasional choppiness. As much a thriller as a mystery novel, the novel has never been considered her finest work by either readers or Christie herself, but it remains a fascinating example of Poirot and Hastings at their most spy-like and adventurous.&lt;/p&gt;
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://archive.org/details/the-big-four-1927</dc:source>
+		<dc:source>https://archive.org/details/bigfour00chri</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Big_Four</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/agatha-christie_the-big-four</meta>
 		<dc:creator id="author">Agatha Christie</dc:creator>
 		<meta property="file-as" refines="#author">Christie, Agatha</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
+		<meta property="se:name.person.full-name" refines="#author">Dame Agatha Mary Clarissa Christie, Lady Mallowan</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Agatha_Christie</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79038407</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Peter Alfred Schou</dc:contributor>
+		<meta property="file-as" refines="#artist">Schou, Peter Alfred </meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Peter_Alfred_Schou</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Anonymous</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">John Rambow</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Rambow, John</meta>
+		<meta property="se:url.homepage" refines="#producer-1">http://johnrambow.com/</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
