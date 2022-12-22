@@ -3,7 +3,7 @@
 	<file path="chapter-2.xhtml">
 		<ignore>
 			<code>t-019</code>
-			<reason>The entire clause contain an initial "Ah!" so period can stay outsite of the italics. --&gt; Ah! <i xml:lang="fr">parfaitement</i>.</reason>
+			<reason>The entire clause contain an initial "Ah!" so period can stay outsite of the italics. --&gt; Ah! <i xml:lang="fr-BE">parfaitement</i>.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-3.xhtml">
