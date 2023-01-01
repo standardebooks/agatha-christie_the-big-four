@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/agatha-christie/the-big-four</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2023-01-01T20:23:36Z</dc:date>
+		<meta property="dcterms:modified">2023-01-01T20:23:36Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -42,7 +42,6 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008109473</meta>
 		<meta property="se:subject">Mystery</meta>
-		<meta property="se:is-a-collection">true</meta>
 		<meta id="collection-1" property="belongs-to-collection">Poirot</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">5</meta>
@@ -50,14 +49,14 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;“The American Soap King” has offered &lt;a href="https://standardebooks.org/collections/poirot"&gt;Hercule Poirot&lt;/a&gt; a ridiculous amount of money to investigate some dodgy business in South America. But right before he’s due to leave London, Poirot discovers that a man has broken into his apartment. The addled stranger, covered in dust and mud, can do little more than repeat Poirot’s address and draw the number 4 over and over. Could the Big Four, a shadowy and seemingly all-powerful organization, be behind these and other strange events?&lt;/p&gt;
 			&lt;p&gt;To stay ahead of supercriminals, Poirot needs the loyalty of his friend Captain Hastings almost as much as he needs his little grey cells. Soon they are rushing to country houses, a mysterious laboratory, the site of a deadly chess game, and a mountaintop hideaway in the Alps.&lt;/p&gt;
-			&lt;p&gt;The year before this book was published, personal turmoil made it impossible for &lt;a href="https://standardebooks.org/ebooks/agatha-christie"&gt;Agatha Christie&lt;/a&gt; to write. But her publisher was anxious for another novel to follow the highly successful &lt;a href="https://standardebooks.org/ebooks/agatha-christie/the-murder-of-roger-ackroyd"&gt;&lt;i&gt;Murder of Roger Ackroyd&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
-			&lt;p&gt;Her brother-in-law helped her turn a twelve-part serial she had written several years before into &lt;i&gt;The Big Four&lt;/i&gt;—its origin as separate stories helps explain its occasional choppiness. As much a thriller as a mystery novel, the novel has never been considered her finest work by either readers or Christie herself, but it remains a fascinating example of Poirot and Hastings at their most spy-like and adventurous.&lt;/p&gt;
+			&lt;p&gt;The year before this book was published, personal turmoil made it impossible for &lt;a href="https://standardebooks.org/ebooks/agatha-christie"&gt;Agatha Christie&lt;/a&gt; to write—but her publisher was anxious for another novel to follow the highly successful &lt;a href="https://standardebooks.org/ebooks/agatha-christie/the-murder-of-roger-ackroyd"&gt;&lt;i&gt;Murder of Roger Ackroyd&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
+			&lt;p&gt;Her brother-in-law helped her turn a twelve-part serial she had written several years before into &lt;i&gt;The Big Four&lt;/i&gt;, and it’s this origin as separate stories that helps explain its occasional choppiness. As much a thriller as a mystery novel, the novel has never been considered her finest work by either readers or Christie herself, but it remains a fascinating example of Poirot and Hastings at their most spy-like and adventurous.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/the-big-four-1927</dc:source>
 		<dc:source>https://archive.org/details/bigfour00chri</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">56455</meta>
+		<meta property="se:reading-ease.flesch">76.52</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Big_Four</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/agatha-christie_the-big-four</meta>
 		<dc:creator id="author">Agatha Christie</dc:creator>
@@ -82,6 +81,10 @@
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
