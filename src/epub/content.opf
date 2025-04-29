@@ -45,7 +45,7 @@
 		<meta id="collection-1" property="belongs-to-collection">Poirot</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">5</meta>
-		<dc:description id="description">Poirot must use all his little grey cells to stop an immensely powerful and ruthless organization from taking over the world.</dc:description>
+		<dc:description id="description">A famous detective must use all his little grey cells to stop an immensely powerful and ruthless organization from taking over the world.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;“The American Soap King” has offered &lt;a href="https://standardebooks.org/collections/poirot"&gt;Hercule Poirot&lt;/a&gt; a ridiculous amount of money to investigate some dodgy business in South America. But right before he’s due to leave London, Poirot discovers that a man has broken into his apartment. The addled stranger, covered in dust and mud, can do little more than repeat Poirot’s address and draw the number 4 over and over. Could the Big Four, a shadowy and seemingly all-powerful organization, be behind these and other strange events?&lt;/p&gt;
 			&lt;p&gt;To stay ahead of supercriminals, Poirot needs the loyalty of his friend Captain Hastings almost as much as he needs his little grey cells. Soon they are rushing to country houses, a mysterious laboratory, the site of a deadly chess game, and a mountaintop hideaway in the Alps.&lt;/p&gt;
