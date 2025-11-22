@@ -29,7 +29,7 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Big Four</dc:title>
 		<meta property="file-as" refines="#title">Big Four, The</meta>
-		<meta property="dcterms:alternate" refines="#title">The Big 4</meta>
+		<meta property="dcterms:alternative" refines="#title">The Big 4</meta>
 		<dc:subject id="subject-1">Private investigators -- England -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Detective and mystery stories, English</dc:subject>
 		<dc:subject id="subject-3">Belgians -- England -- Fiction</dc:subject>
