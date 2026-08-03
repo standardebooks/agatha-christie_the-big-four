@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/agatha-christie/the-big-four</dc:identifier>
 		<dc:date>2023-01-01T20:23:36Z</dc:date>
@@ -47,13 +47,13 @@
 		<meta id="collection-1" property="belongs-to-collection">Poirot</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">5</meta>
-		<dc:description id="description">A famous detective must use all his little grey cells to stop an immensely powerful and ruthless organization from taking over the world.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>A famous detective must use all his little grey cells to stop an immensely powerful and ruthless organization from taking over the world.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;“The American Soap King” has offered &lt;a href="https://standardebooks.org/collections/poirot"&gt;Hercule Poirot&lt;/a&gt; a ridiculous amount of money to investigate some dodgy business in South America. But right before he’s due to leave London, Poirot discovers that a man has broken into his apartment. The addled stranger, covered in dust and mud, can do little more than repeat Poirot’s address and draw the number 4 over and over. Could the Big Four, a shadowy and seemingly all-powerful organization, be behind these and other strange events?&lt;/p&gt;
 			&lt;p&gt;To stay ahead of supercriminals, Poirot needs the loyalty of his friend Captain Hastings almost as much as he needs his little grey cells. Soon they are rushing to country houses, a mysterious laboratory, the site of a deadly chess game, and a mountaintop hideaway in the Alps.&lt;/p&gt;
 			&lt;p&gt;The year before this book was published, personal turmoil made it impossible for &lt;a href="https://standardebooks.org/ebooks/agatha-christie"&gt;Agatha Christie&lt;/a&gt; to write—but her publisher was anxious for another novel to follow the highly successful &lt;a href="https://standardebooks.org/ebooks/agatha-christie/the-murder-of-roger-ackroyd"&gt;&lt;i&gt;Murder of Roger Ackroyd&lt;/i&gt;&lt;/a&gt;.&lt;/p&gt;
 			&lt;p&gt;Her brother-in-law helped her turn a twelve-part serial she had written several years before into &lt;i&gt;The Big Four&lt;/i&gt;, and it’s this origin as separate stories that helps explain its occasional choppiness. As much a thriller as a mystery novel, the novel has never been considered her finest work by either readers or Christie herself, but it remains a fascinating example of Poirot and Hastings at their most spy-like and adventurous.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://archive.org/details/the-big-four-1927</dc:source>
 		<dc:source>https://archive.org/details/bigfour00chri</dc:source>
